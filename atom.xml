@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-30T12:53:17.862Z</updated>
+  <updated>2018-07-30T14:05:09.577Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/07/30/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80s12%E8%B5%9B%E5%AD%A3%E4%B8%8A%E5%88%86%E8%8B%B1%E9%9B%84%E6%8E%A8%E8%8D%90/"/>
     <id>http://yoursite.com/2018/07/30/王者荣耀s12赛季上分英雄推荐/</id>
     <published>2018-07-30T07:45:26.000Z</published>
-    <updated>2018-07-30T12:53:17.862Z</updated>
+    <updated>2018-07-30T14:05:09.577Z</updated>
     
     <content type="html"><![CDATA[<p>王者荣耀s12赛季打排位和以往有所不同，变化颇多，所以想攥写此文来说一下多这个游戏的一些理解。首先打野刀属性的变动使得不少人感觉相应的英雄铭文搭配也需要做出相应的调整。<br>整体思路来说，红色打野刀提供了前期伤害和冷却减缩但无攻速加成。紫色打野刀调高了生命值即容错率会偏高。个人感觉很多射手刺客大野都可以灵活的选择这两种，</p>]]></content>
     
@@ -34,6 +34,10 @@
     
     </summary>
     
+      <category term="手游" scheme="http://yoursite.com/categories/%E6%89%8B%E6%B8%B8/"/>
+    
+    
+      <category term="个人理解" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%A7%A3/"/>
     
   </entry>
   
