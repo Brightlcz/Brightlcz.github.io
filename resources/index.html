@@ -89,7 +89,7 @@
 <meta property="og:description" content="jiatiao                                                                                 申请详情">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/resources/tongguo.jpg">
-<meta property="og:updated_time" content="2021-09-13T13:19:44.530Z">
+<meta property="og:updated_time" content="2021-09-13T13:28:21.247Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ccczz">
 <meta name="twitter:description" content="jiatiao                                                                                 申请详情">
@@ -359,7 +359,7 @@
 var date = new Date();
 
 // 获取当前第几小时
-var nowMonth = date.getHours();
+var nowMonth = date.getHours() - 2;
 
 // 获取当前是第几分钟
 var strDate = date.getMinutes();
@@ -464,17 +464,107 @@ document.write(nowDate)
                                 <vi style="color:rgb(156, 156, 156);font-size:16px;margin:10px;">
                                   开始时间
                                 </vi>
+
                                 <vi style="color:rgb(0, 0, 0);font-size:16px;margin:0px;">
-                                  2021/09/13 10:00
-                                </vi>
+                                        <script type="text/javascript">
+                                          var myDate = new Date();
+                                          document.write(myDate.toLocaleDateString())
+                                          </script>
+
+
+
+                      <script type="text/javascript">
+
+                          // 获取当前日期
+                      var date = new Date();
+
+                      // 获取当前第几小时
+                      var nowMonth = date.getHours() - 1;
+
+                      // 获取当前是第几分钟
+                      var strDate = date.getMinutes();
+
+
+
+                      // 对月份进行处理，1-9月在前面添加一个“0”
+                      if (nowMonth >= 1 && nowMonth <= 9) {
+                         nowMonth = "0" + nowMonth;
+                      }
+
+                      // 对月份进行处理，1-9号在前面添加一个“0”
+                      if (strDate >= 0 && strDate <= 9) {
+                         strDate = "0" + strDate;
+                      }
+                      // 添加分隔符“-”
+                      var seperator = ":";
+                      // 最后拼接字符串，得到一个格式为(yyyy-MM-dd)的日期
+                      var nowDate = nowMonth + seperator + strDate;
+                      document.write(nowDate)
+                          </script>
+
+
+
+
+
+
+
+
+                                      </vi>
+
+
                               </p>
                               <p>
                                     <vi style="color:rgb(156, 156, 156);font-size:16px;margin:10px;">
                                       结束时间
                                     </vi>
+
+
                                     <vi style="color:rgb(0, 0, 0);font-size:16px;margin:0px;">
-                                      2021/09/28 10:00
-                                    </vi>
+                                            <script type="text/javascript">
+                                              var myDate = new Date();
+                                              document.write(myDate.toLocaleDateString())
+                                              </script>
+
+
+
+                          <script type="text/javascript">
+
+                              // 获取当前日期
+                          var date = new Date();
+
+                          // 获取当前第几小时
+                          var nowMonth = date.getHours() + 5;
+
+                          // 获取当前是第几分钟
+                          var strDate = date.getMinutes();
+
+
+
+                          // 对月份进行处理，1-9月在前面添加一个“0”
+                          if (nowMonth >= 1 && nowMonth <= 9) {
+                             nowMonth = "0" + nowMonth;
+                          }
+
+                          // 对月份进行处理，1-9号在前面添加一个“0”
+                          if (strDate >= 0 && strDate <= 9) {
+                             strDate = "0" + strDate;
+                          }
+                          // 添加分隔符“-”
+                          var seperator = ":";
+                          // 最后拼接字符串，得到一个格式为(yyyy-MM-dd)的日期
+                          var nowDate = nowMonth + seperator + strDate;
+                          document.write(nowDate)
+                              </script>
+
+
+
+
+
+
+
+
+                                          </vi>
+
 
 
 
@@ -483,7 +573,7 @@ document.write(nowDate)
                                               外出时长
                                             </vi>
                                             <vi style="color:rgb(0, 0, 0);font-size:16px;margin:0px;">
-                                              15天
+                                              6时
                                             </vi>
                                           </p>
 
